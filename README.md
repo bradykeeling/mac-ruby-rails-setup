@@ -25,19 +25,19 @@ $ curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-docto
 
 ## Download Ruby version
 ```sh
-$ rbenv install *version-goes-here*
+$ rbenv install [version-goes-here]
 ```
 *Example: `$ rbenv install 2.4.4`*
 
 ## Set Ruby version for different environments
 ### Local (version for specific directory)
 ```sh
-$ rbenv local *version-goes-here*
+$ rbenv local [version-goes-here]
 ```
 
 ### Global (global default version - can be overriden)
 ```sh
-$ rbenv local *version-goes-here*
+$ rbenv local [version-goes-here]
 ```
 
 ### Which version is installed here?
